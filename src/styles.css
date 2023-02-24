@@ -43,3 +43,12 @@ p {
   color: black;
   border-radius: 30px;
 }
+
+.row {
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  width: fit-content;
+}
