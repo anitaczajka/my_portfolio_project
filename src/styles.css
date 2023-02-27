@@ -25,6 +25,10 @@ p {
   font-size: 18px;
 }
 
+img {
+  width: fit-content;
+}
+
 .hero {
   background: black;
   color: white;
@@ -49,6 +53,17 @@ p {
   align-content: center;
 }
 
-img {
-  width: fit-content;
+.social-media-links {
+  padding: 30px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: black;
+}
+
+footer .social-media-links a {
+  margin: 0 20px;
+  color: whitesmoke;
+  font-size: 20px;
 }
