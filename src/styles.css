@@ -13,7 +13,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
@@ -42,11 +43,11 @@ a {
   padding: 160px 30px;
 }
 
-.about-section {
+.content-section {
   padding: 160px 30px;
 }
 
-.about-content {
+.content {
   margin: 0 30px;
 }
 
