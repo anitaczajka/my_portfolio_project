@@ -43,6 +43,14 @@ a {
   padding: 160px 30px;
 }
 
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-item .active {
+  color: var(--accent-color);
+}
+
 .content-section {
   padding: 160px 30px;
 }
