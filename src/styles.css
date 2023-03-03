@@ -52,7 +52,7 @@ a {
 }
 
 .content-section {
-  padding: 160px 30px;
+  padding: 75px 30px;
 }
 
 .content {
@@ -110,11 +110,10 @@ a {
 }
 
 .social-media-links {
-  padding: 30px;
+  padding: 25px;
 }
 
 footer {
-  margin-top: 20px;
   background-color: var(--secondary-color);
 }
 
@@ -122,6 +121,11 @@ footer .social-media-links a {
   margin: 0 20px;
   color: whitesmoke;
   font-size: 20px;
+}
+
+.social-media-links i:hover {
+  color: var(--accent-color);
+  font-size: 25px;
 }
 
 @media (max-width: 768px) {
@@ -141,23 +145,23 @@ footer .social-media-links a {
     padding: 100px 20px 30px;
   }
 
-  .about-section {
+  .content-section {
     text-align: center;
     padding: 20px;
   }
 
-  .about-content {
+  .content {
     margin: 30px;
   }
 }
 
 @media (max-width: 992px) {
-  .about-section {
+  .content-section {
     text-align: center;
     padding: 20px;
   }
 
-  .about-content {
+  .content {
     margin: 30px;
   }
 }
