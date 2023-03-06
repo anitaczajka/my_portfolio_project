@@ -28,6 +28,7 @@ h1 {
 
 h3 {
   color: var(--accent-color);
+  font-size: 20px;
 }
 
 p {
@@ -48,7 +49,7 @@ a {
 }
 
 .navbar-nav .nav-item {
-  margin-right: 1rem;
+  margin-right: 16px;
 }
 
 .navbar-nav .nav-item .active {
