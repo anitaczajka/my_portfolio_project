@@ -133,6 +133,11 @@ footer .social-media-links a {
   font-size: 25px;
 }
 
+footer p {
+  font-family: var(--btn-font-family);
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 42px;
