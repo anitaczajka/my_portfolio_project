@@ -3,7 +3,8 @@
   --btn-font-family: "Montserrat", sans-serif;
   --primary-color: #d5d5d5;
   --secondary-color: #1a1a1a;
-  --accent-color: #f5ec00;
+  --tertiary-color: #c7c7c7;
+  --accent-color: #fff200;
 }
 
 body {
@@ -16,19 +17,26 @@ h1,
 h2,
 h3 {
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.1em;
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 78px;
+  font-weight: 700;
+}
+
+.accent-section {
+  color: var(--accent-color);
+  font-weight: 700;
 }
 
 h3 {
   color: var(--accent-color);
   font-size: 20px;
+  font-weight: 700;
 }
 
 p {
@@ -45,7 +53,7 @@ a {
   background: var(--secondary-color);
   color: white;
   text-align: center;
-  padding: 160px 30px;
+  padding: 100px 30px;
 }
 
 .navbar-nav .nav-item {
