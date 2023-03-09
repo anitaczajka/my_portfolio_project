@@ -50,6 +50,10 @@ a {
   color: var(--secondary-color);
 }
 
+.contact-link {
+  color: var(--primary-color);
+}
+
 .hero {
   background: var(--secondary-color);
   color: white;
@@ -71,6 +75,7 @@ a {
 
 .content {
   margin: 0 30px;
+  margin-bottom: 30px;
 }
 
 .btn-branding {
