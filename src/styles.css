@@ -29,11 +29,6 @@ h1 {
   font-weight: 700;
 }
 
-.accent-section {
-  color: var(--accent-color);
-  font-weight: 700;
-}
-
 h3 {
   color: var(--accent-color);
   font-size: 20px;
@@ -50,17 +45,7 @@ a {
   color: var(--secondary-color);
 }
 
-.contact-link {
-  color: var(--primary-color);
-}
-
-.hero {
-  background: var(--secondary-color);
-  color: white;
-  text-align: center;
-  padding: 100px 30px;
-}
-
+/* Navbar menu */
 .navbar-nav .nav-item {
   margin-right: 16px;
 }
@@ -69,13 +54,20 @@ a {
   color: var(--accent-color);
 }
 
-.content-section {
-  padding: 75px 30px;
+.accent-section {
+  color: var(--accent-color);
+  font-weight: 700;
 }
 
-.content {
-  margin: 0 30px;
-  margin-bottom: 30px;
+.contact-link {
+  color: var(--primary-color);
+}
+
+.hero {
+  background: var(--secondary-color);
+  color: white;
+  text-align: center;
+  padding: 100px 30px 60px;
 }
 
 .btn-branding {
@@ -117,6 +109,15 @@ a {
   opacity: 0.85;
 }
 
+.content-section {
+  padding: 85px 30px;
+}
+
+.content {
+  margin: 0 30px;
+  margin-bottom: 30px;
+}
+
 .icon {
   display: block;
   top: 30%;
@@ -132,6 +133,7 @@ a {
   padding: 25px;
 }
 
+/* Footer */
 footer {
   background-color: var(--secondary-color);
 }
