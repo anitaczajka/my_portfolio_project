@@ -7,7 +7,8 @@
   --accent-color: #fff200;
 }
 
-body {
+body,
+.modal-content {
   font-family: var(--default-font-family);
   background: var(--secondary-color);
   color: rgb(255, 255, 255);
