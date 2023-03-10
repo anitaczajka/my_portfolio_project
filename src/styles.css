@@ -154,6 +154,25 @@ footer p {
   font-size: 14px;
 }
 
+.modal-xl {
+  min-width: 900px;
+}
+
+@media (max-width: 992px) {
+  .content-section {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .portrait-image {
+    margin-top: 85px;
+  }
+
+  .modal-xl {
+    min-width: 750px;
+  }
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 42px;
@@ -177,17 +196,21 @@ footer p {
   }
 
   .content {
-    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .modal-xl {
+    min-width: 650px;
+  }
+
+  footer p {
+    font-size: 10px;
   }
 }
 
-@media (max-width: 992px) {
-  .content-section {
-    text-align: center;
-    padding: 20px;
-  }
-
-  .content {
-    margin: 30px;
+@media (max-width: 576px) {
+  .modal-xl {
+    min-width: 300px;
   }
 }
